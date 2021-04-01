@@ -54,7 +54,7 @@ body {
     color: white;
     border-radius: 15px;
     border: #f312e0 2px groove;
-    margin-right: 50px;
+    margin-right: 100px;
     font-size: 20px;
     transition: 0.7s ease-in;
 }
@@ -70,17 +70,6 @@ body {
     padding: 20px;
     color: white;
     border: #229FD9 2px groove;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 15px;
-    margin-right: 50px;
-    transition: 0.7s ease-in;
-}
-.upload {
-    text-decoration: none;
-    padding: 20px;
-    color: white;
-    border: white 2px groove;
     display: inline-block;
     font-size: 20px;
     border-radius: 15px;
@@ -184,10 +173,10 @@ footer a {
 @media screen and (max-width: 600px)
 {
     .insta {
-        margin-left: 50px;
+        margin-left: 100px;
     }
-    .upload {
-        margin-top: 20px;
+    .tele {
+        margin-top: 30px;
     }
     .container {
         text-align: center;
@@ -231,5 +220,5 @@ footer a {
 #myBtn:hover {
     transition: 0.3s ease-out;
     background-color: #555; 
-}
+  }
   
