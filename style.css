@@ -54,7 +54,7 @@ body {
     color: white;
     border-radius: 15px;
     border: #f312e0 2px groove;
-    margin-right: 100px;
+    margin-right: 50px;
     font-size: 20px;
     transition: 0.7s ease-in;
 }
@@ -70,6 +70,17 @@ body {
     padding: 20px;
     color: white;
     border: #229FD9 2px groove;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-right: 50px;
+    transition: 0.7s ease-in;
+}
+.upload {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border: white 2px groove;
     display: inline-block;
     font-size: 20px;
     border-radius: 15px;
@@ -173,10 +184,10 @@ footer a {
 @media screen and (max-width: 600px)
 {
     .insta {
-        margin-left: 100px;
+        margin-left: 50px;
     }
-    .tele {
-        margin-top: 30px;
+    .upload {
+        margin-top: 20px;
     }
     .container {
         text-align: center;
