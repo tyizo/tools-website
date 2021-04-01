@@ -198,3 +198,27 @@ footer a {
         height: 180px;
     }
 }
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #960052; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    transition: 0.3s ease-in;
+}
+  
+#myBtn:hover {
+    transition: 0.3s ease-out;
+    background-color: #555; 
+}
+  
