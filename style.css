@@ -1,0 +1,200 @@
+/*
+
+2021 ~ 3 ~ 31.
+Coded By Tyizo.
+Instagram: @1xm0d.
+Twitter: @1xm0d.
+Github: @tyizo.
+
+All CopyRights Recvid !!!
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body, 
+html {
+    height: 100%;
+}
+  
+body { 
+    background: url('Endless-Constellation.svg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+.title {
+    font-size: 48px;
+    margin-top: 30px;
+    color: white;
+}
+.title_two {
+    font-size: 30px;
+    padding: 10px;
+}
+.title_two > span {
+    color: #ff0000;
+}
+
+.insta {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    border: #f312e0 2px groove;
+    margin-right: 100px;
+    font-size: 20px;
+    transition: 0.7s ease-in;
+}
+.insta:hover {
+    transition: 0.6s ease-out;
+    background-color: #141414;
+    box-shadow: 0 0 40px #f312e0;
+    border: none;
+}
+
+.tele {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border: #229FD9 2px groove;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.7s ease-in;
+}
+.tele:hover {
+    transition: 0.6s ease-out;
+    background-color: #141414;
+    box-shadow: 0 0 40px #229FD9;
+    border: none;
+
+}
+.fa-telegram {
+    color: #229FD9;
+    font-size: 20px;
+}
+.fa-instagram {
+    color: #f312e0;
+    font-size: 20px;
+}
+
+
+@keyframes brcolor{
+    0% {
+        border: 5px #45a3e5 solid;
+    }
+
+    30% {
+        border: 5px #66bf39 solid;
+    }
+    60% {
+        border:5px #eb670f solid;
+    }
+    90% {
+        border: 5px #f35 solid;
+    }
+    100% {
+        border: 5px #864cbf solid;
+    }
+}
+.cards {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: black;
+    border: 10px red solid;
+    -webkit-animation: brcolor 5s infinite;
+    animation: brcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.card-title {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+.cards > a {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 22px;
+    background-color: #007272;
+    transition: 0.5s ease-in;
+}
+.cards > a:hover {
+    transition: 0.5s ease-in;
+    box-shadow: 0 0 45px #007272;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.one1 {
+    height: 130px;
+}
+.one {
+    font-size: 20px;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.fa-heart {
+    color: red;
+}
+
+@media screen and (max-width: 600px)
+{
+    .insta {
+        margin-left: 100px;
+    }
+    .tele {
+        margin-top: 30px;
+    }
+    .container {
+        text-align: center;
+    }
+    .cards {
+        width: 300px;
+        height: 220px;
+    }
+    .cards > a{
+        font-size: 20px;
+    }
+    .tel {
+        height: 160px;
+    }
+    .link {
+        height: 160px;
+    }
+    .one1 {
+        height: 180px;
+    }
+}
