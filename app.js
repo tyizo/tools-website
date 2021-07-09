@@ -1,14 +1,4 @@
-/*
 
-2021 ~ 3 ~ 31.
-Coded By Tyizo.
-Instagram: @1xm0d.
-Twitter: @1xm0d.
-Github: @tyizo.
-
-All CopyRights Recvid !!!
-
-*/
 mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
